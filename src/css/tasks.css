@@ -1,0 +1,18 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 48px 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.task-list a {
+  color: #4e75ff;
+  text-decoration: underline;
+}
+
+.task-list a:hover,
+.task-list a:focus {
+  color: #2e2f42;
+}
